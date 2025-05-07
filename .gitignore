@@ -1,22 +1,35 @@
-# Android build
-android/.gradle/
-android/app/build/
-android/.idea/
-*.iml
-*.apk
-*.aar
-.gradle/
-build/
-local.properties
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
-# Node modules
+# dependencies
 node_modules/
 
-# VS Code settings
-.vscode/
+# Expo
+.expo/
+dist/
+web-build/
 
-# Mac/Linux
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
 .DS_Store
+*.pem
 
-# Log files
-*.log
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
